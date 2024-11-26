@@ -98,37 +98,85 @@
     </section>
 
     <section id="services">
-        <h2 class="title">Mes services</h2>
+        <h3 class="title">Mes services</h3>
         <div class="container">
+            <!-- Service 1: Shooting photo -->
             <article class="service">
-                <div class="service__description">
+                <header>
                     <h3>Shooting photo</h3>
-                    <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour répondre à vos besoins.</p>
+                </header>
+                <div class="service__description">
+                    <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos.</p>
+                </div>
+                <div class="service__price">
+                    <h4>350€/demi-journée</h4>
+                    <span>Matériel, déplacement inclus</span>
                 </div>
             </article>
+    
+            <!-- Service 2: Retouches -->
             <article class="service">
+                <header>
+                    <h3>Retouches</h3>
+                </header>
                 <div class="service__description">
-                    <h3>Événements</h3>
-                    <p>Mariages, anniversaires, séminaires… Je vous aide à immortaliser chaque événement spécial de votre vie.</p>
+                    <p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications.</p>
+                </div>
+                <div class="service__price">
+                    <h4>50€/photo</h4>
+                    <span>2 AR par photo</span>
+                </div>
+            </article>
+    
+            <!-- Service 3: Album photos -->
+            <article class="service">
+                <header>
+                    <h3>Album photos</h3>
+                </header>
+                <div class="service__description">
+                    <p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé.</p>
+                </div>
+                <div class="service__price">
+                    <h4>400€ album A4</h4>
+                    <span>30 pages recto/verso</span>
                 </div>
             </article>
         </div>
     </section>
 
+    <blockquote class="quote">
+    <p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p> <!-- Citation principale -->
+    <footer class="quote__author">- Richard Avedon</footer> <!-- Auteur de la citation -->
+</blockquote>
+
     <section id="contact">
-        <h2 class="title">Contactez-moi</h2>
-        <form action="mailto:nina.carducci@example.com" method="POST" enctype="multipart/form-data">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Envoyer</button>
-        </form>
+        <div class="container">
+            <!-- Formulaire de contact -->
+            <article class="form-container">
+                <header>
+                    <h3>Une question ? Une demande de devis ?</h3>
+                    <p> N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures.</p>
+                </header>
+                <form action="" method="post">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+        
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        
+                    <!-- Remplacement du bouton par un input de type submit -->
+                    <input type="submit" value="Envoyer">
+                </form>
+            </article>
+        
+            <!-- Image à droite du formulaire -->
+            <aside class="picture right">
+                <img src="./assets/images/camera.webp" alt="Appareil photo professionnel" loading="lazy">
+            </aside>
+        </div>
     </section>
 </main>
 
