@@ -9,12 +9,20 @@
     <!-- Précharger les fichiers CSS minimisés de Bootstrap -->
     <link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    
+    <!-- Préchargement du fichier de style principal -->
+    <link rel="preload" href="./assets/style.css" as="style">
     <link rel="stylesheet" href="./assets/style.css">
 
-    <!-- Préconnecter aux domaines externes (Google Fonts) -->
+    <!-- Préconnecter aux domaines externes pour les Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+
+    <!-- Précharger les images principales si elles sont critiques pour le rendu -->
+    <link rel="preload" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" as="image">
+    <link rel="preload" href="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" as="image">
+    <link rel="preload" href="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" as="image">
 
     <!-- Scripts différés -->
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
