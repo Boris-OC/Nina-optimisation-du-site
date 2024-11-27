@@ -277,11 +277,18 @@ input[type="submit"] {
 		width: 100%;
 	}
 	.quote__text {
-		font-size: 1.8em;
+		font-size: 1.6em;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		line-height: 1.2;
+		display: block;
+		margin-block-start: 0.67em;
+		margin-block-end: 0.67em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		unicode-bidi: isolate;
 	}
 }
-
-	
 
 @media all and (max-width: 1000px) {
 	#about {
