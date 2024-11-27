@@ -63,6 +63,10 @@ body {
 	z-index: -1;
 }
 
+.nav-link.active-tag {
+	background-color: #BEB45A;
+	color: white;
+  }
 .picture {
 	flex: 1;
 	margin: 0 20px;
