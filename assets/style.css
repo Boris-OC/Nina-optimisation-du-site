@@ -64,7 +64,7 @@ body {
 }
 .nav-link.active-tag {
 	background-color: #BEB45A!important;
-	color: white!important;
+	color: black!important;
 	border-radius: 0;
   }
 
