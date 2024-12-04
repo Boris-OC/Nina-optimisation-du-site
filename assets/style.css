@@ -73,6 +73,13 @@ body {
 	color: #000!important;
 }
 
+carousel-control-prev, carousel-control-next {
+	background-color: #000;
+	color: white;
+}
+.visually-hidden {
+	display: none;
+}
 
 .picture {
 	flex: 1;
